@@ -12,14 +12,12 @@ export default Ember.Route.extend({
       var album = params.album;
       album.get('reviews').addObject(newReview);
       newReview.save().then(function() {
-        console.log(album);
         return album.save();
       });
     },
 
     addToFavorites(album) {
       this.get('favoriteAlbums').add(album);
-      console.log(this.get('favoriteAlbums.albums'));
     }
   }
 });
