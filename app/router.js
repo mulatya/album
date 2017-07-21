@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('contact');
   this.route('album');
   this.route('admin');
+  this.route('favorite');
 });
 
 export default Router;

@@ -1,14 +1,5 @@
-
-<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD6W2_DyOZaKyCQi5sViQKfpQYw9MH9FpY",
-    authDomain: "albums-f4b1b.firebaseapp.com",
-    databaseURL: "https://albums-f4b1b.firebaseio.com",
-    projectId: "albums-f4b1b",
-    storageBucket: "",
-    messagingSenderId: "318784593455"
-  };
-  firebase.initializeApp(config);
-</script>
+<div class="row">
+  {{#each sortedAlbums as |album|}}
+    {{album-tile album=album}}
+  {{/each}}
+</div>
