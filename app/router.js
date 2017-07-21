@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('album');
+  this.route('admin');
 });
 
 export default Router;

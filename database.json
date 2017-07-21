@@ -1,0 +1,26 @@
+{ "albums" : [{
+    "title": "One More Light",
+    "artist": "Linking Park",
+    "genre": "Soft Rock",
+    "year": "2017",
+    "artworkUrl": "http://onemorelight.linkinpark.com/images/lp_oml_fbog_021417.jpg"
+  }, {
+    "title": "4:44",
+    "artist": "Jay-z",
+    "genre": "Hip Hop/Rap",
+    "year": "2017",
+    "artworkUrl": "http://images.complex.com/complex/images/c_limit,w_680/fl_lossy,pg_1,q_auto/y70wp6evtueec47ehnoo/444-cover"
+  }, {
+    "title": "ISSA",
+    "artist": "21 Savage",
+    "genre": "Hip Hop/Rap",
+    "year": "2017",
+    "artworkUrl": "http://images.genius.com/c882a112b55acb3623fa4b0e4d9bd37c.1000x1000x1.jpg"
+  }, {
+    "title": "Majesty",
+    "artist": "Chronnix",
+    "genre": "dancehall",
+    "year": "2017",
+    "artworkUrl": "http://cdn1.umg3.net/265/files/2016/12/Chronixx_Majesty_Cover-1000x1000.jpg"
+  }]
+}
