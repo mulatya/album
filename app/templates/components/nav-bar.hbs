@@ -1,29 +1,21 @@
-<div class="row">
-  <div class="col-sm-12">
-    <form>
-      <h3>Add an Album</h3>
-      <div class="form-group">
-        <label for="title">Album Title</label>
-        {{input value=title id="title"}}
-      </div>
-      <div class="form-group">
-        <label for="artist">Album Artist</label>
-        {{input value=artist id="artist"}}
-      </div>
-      <div class="form-group">
-        <label for="genre">Album Genre</label>
-        {{input value=genre id="genre"}}
-      </div>
-      <div class="form-group">
-        <label for="year">Album Year</label>
-        {{input value=year id="year" type="number"}}
-      </div>
-      <div class="form-group">
-        <label for="artworkUrl">Album Artwork URL</label>
-        {{input value=artworkUrl id="artworkUrl"}}
-      </div>
-
-      <button {{action 'saveAlbum'}}>Add Album</button>
-    </form>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{#link-to 'index' class='navbar-brand'}}ISSA{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>{{#link-to 'about'}}About{{/link-to}}</li>
+        <li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+        <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
+        <li>{{#link-to 'favorite'}}Favorite Albums{{/link-to}}</li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
